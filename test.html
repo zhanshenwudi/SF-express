@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
+    <script type="text/javascript">
+        console.log($().jquery)
+            /*$('#ipt').bind('input propertychange',function () {
+                $('#ipt').animate({scrollTop:100})
+            })*/
        /* //发送外部请求方法
         function outsideAjax (url, params, success, failure) {
             function tmpFailure(responseText){
@@ -32,20 +36,7 @@
                 setWebitEvent('_getOutsideAjax()', '632');
             }
         }*/
-        function test(ss) {
-            if (prompt('请输入数字')==1){
 
-            } else {
-                ss()
-            }
-        }
-        test(function() {
-            alert(111111111111111)
-        })
-       function test1() {
-           alert(222222222222)
-       }
-       test1()
     </script>
 </head>
 <body>
