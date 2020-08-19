@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        console.log($().jquery)
+            /*$('#ipt').bind('input propertychange',function () {
+                $('#ipt').animate({scrollTop:100})
+            })*/
+       /* //发送外部请求方法
+        function outsideAjax (url, params, success, failure) {
+            function tmpFailure(responseText){
+                failure && failure(responseText);
+            };
+            function tmpSuccess(responseText) {
+                if (responseText) {
+                    success && success(responseText);
+                }
+            };
+            var requestBody = {
+                url : url,
+                params : Fw.JsonToStr(params),
+                success : YT.getFunctionName(tmpSuccess),
+                failure : YT.getFunctionName(tmpFailure)
+            };
+            if (isAndroid) {
+                window.SysClientJs.whiteCheckList(Fw.JsonToStr(requestBody));
+            } else {
+                var outsideAjaxList = [];
+                window._getOutsideAjax = function() {
+                    return outsideAjaxList && outsideAjaxList.shift();
+                };
+                outsideAjaxList.push(Fw.JsonToStr(requestBody));
+                setWebitEvent('_getOutsideAjax()', '632');
+            }
+        }*/
+
+    </script>
+</head>
+<body>
+<input type="text" id="ipt" />
+</body>
+</html>
